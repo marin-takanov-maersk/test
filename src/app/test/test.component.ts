@@ -13,4 +13,8 @@ export class TestComponent {
   bar() {
     console.log('bar')
   }
+  
+  xyz() {
+    console.log('xyz')
+  }
 }
