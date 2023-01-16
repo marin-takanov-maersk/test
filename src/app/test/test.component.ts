@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./test.component.scss']
 })
 export class TestComponent {
-  foo(importantParam: string) {
-    console.log(importantParam)
+  foo(importantParam: string, param1: string) {
+    console.log(importantParam, param1)
   }
 
   bar() {
