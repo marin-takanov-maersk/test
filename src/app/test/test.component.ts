@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./test.component.scss']
 })
 export class TestComponent {
+  foo() {
+    console.log('foo')
+  }
 
+  bar() {
+    console.log('bar')
+  }
 }
