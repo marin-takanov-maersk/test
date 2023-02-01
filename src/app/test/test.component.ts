@@ -25,4 +25,8 @@ export class TestComponent {
   abc(p: any) {
     console.log(p);
   }
+
+  abcd() {
+    console.log('abcd');
+  }
 }
