@@ -17,4 +17,8 @@ export class TestComponent {
   xyz() {
     console.log('xyz')
   }
+  
+  abc(p: any) {
+    console.log(p);
+  }
 }
