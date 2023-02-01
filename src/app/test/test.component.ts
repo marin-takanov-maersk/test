@@ -7,18 +7,26 @@ import { Component } from '@angular/core';
 })
 export class TestComponent {
   foo(importantParam: string, param1: string, param2: number, param3: string) {
-    console.log(importantParam, param1, param2, param3)
+    console.log(importantParam, param1, param2, param3);
   }
 
   bar() {
-    console.log('bar')
+    console.log('bar');
   }
-  
+
   xyz() {
-    console.log('xyz')
+    console.log('xyz');
   }
-  
+
+  abc2() {
+    console.log('abc');
+  }
+
   abc(p: any) {
     console.log(p);
+  }
+
+  abcd() {
+    console.log('abcd');
   }
 }
